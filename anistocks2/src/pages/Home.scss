@@ -1,0 +1,48 @@
+.home__form {
+  border-radius: 5px;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgb(204, 201, 201);
+}
+
+.home__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.home__input {
+  flex: 1;
+}
+
+.home__iconButton {
+  flex: 0;
+}
+
+.kazumaImg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.graphs {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.leftGraph {
+  width: 33%;
+  justify-content: left;
+  justify-items: left;
+  justify-self: left;
+}
+
+.rightGraph {
+  width: 33%;
+  justify-content: right;
+  justify-items: right;
+  justify-self: right;
+}
+
+.centerGraph {
+  width: 33%;
+}
