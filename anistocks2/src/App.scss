@@ -1,0 +1,51 @@
+body {
+  background: #121212;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+}
+
+#profilePicture {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.topRow {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 40px 0px;
+  border-style: solid none solid none;
+  border-width: 1px;
+  border-color: rgb(204, 201, 201);
+  height: 50px;
+  justify-content: center;
+}
+
+#userName {
+  float: left;
+  justify-content: left;
+  margin-right: 20px;
+  color: rgb(204, 201, 201);
+}
+
+#userWalletBalance {
+  float: left;
+  justify-content: left;
+  margin-right: 500px;
+  color: rgb(204, 201, 201);
+}
+
+.multi-button {
+  color: rgb(204, 201, 201);
+  margin-right: 620px;
+}
+
+#homePage {
+  margin-right: 20px;
+}
